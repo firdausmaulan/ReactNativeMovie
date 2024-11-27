@@ -146,7 +146,7 @@ export default StyleSheet.create({
     color: '#666666',
   },
   detailOverview: {
-    marginTop: 24,
+    margin: 12,
     fontSize: 16,
     lineHeight: 22,
     color: '#333333',

@@ -24,10 +24,10 @@ export default function MovieDetailScreen({route}) {
           <View style={{width: '68%'}}>
             <Text style={baseStyles.detailTitle}>{movie.title}</Text>
             <Text style={baseStyles.detailInfoText}>
-              Release Date: {movie.releaseDate}
+              Release Date: {movie.release_date}
             </Text>
             <Text style={baseStyles.detailInfoText}>
-              Rating: {movie.voteAverage}/10
+              Rating: {movie.vote_average.toFixed(1)}/10
             </Text>
           </View>
         </View>
